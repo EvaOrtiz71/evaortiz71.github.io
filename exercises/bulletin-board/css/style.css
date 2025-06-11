@@ -1,0 +1,83 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color: blue;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 24px;
+    padding: 24px;
+    font-size: large;
+    font-family:
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        ;
+    color: #ffffff;
+}
+
+#post-it-1 {
+    box-shadow: 8px 8px white;
+}
+
+#heading-1 {
+    color: yellow;
+    text-align: center;
+}
+
+#post-it-2 {
+    background-color: #dd6e18;
+    box-shadow: inset 0px 0px 16px 4px yellowgreen;
+}
+#polly {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#post-it-3 {
+    background-color: #67af80;
+    box-shadow: 8px 8px 6px darkgreen;
+}
+
+#heading-3 {
+    color: #ffffff;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#scripture {
+    font-size: smaller;
+}
+
+#post-it-4 {
+    box-shadow: -2px -2px 4px #2f3038;
+}
+#heading-4 {
+    color: lightcoral;
+}
+
+#post-it-5 {
+    background-color: #f0eeec;
+    color: #000000;
+    box-shadow: 2px 2px 4px 4px #1b1a1a;
+}
+
+#heading-5 {
+    text-align: center;
+}
+
+#post-it-6 {
+    background-color: chartreuse;
+    box-shadow: 5px 5px brown;
+}
+
+#heading-6 {
+    text-align: center;
+    color: darkgreen;
+}
