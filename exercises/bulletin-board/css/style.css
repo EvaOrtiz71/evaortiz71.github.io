@@ -20,6 +20,13 @@
         ;
     color: #ffffff;
 }
+.push-pin {
+    width: 24px;
+    height: 24px;
+    background-color: rgb(160, 96, 12);
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px #000000cc;
+}
 
 #post-it-1 {
     box-shadow: 8px 8px white;
@@ -34,6 +41,7 @@
     background-color: #dd6e18;
     box-shadow: inset 0px 0px 16px 4px yellowgreen;
 }
+
 #polly {
     width: 200px;
     height: 200px;
