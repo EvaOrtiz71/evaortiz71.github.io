@@ -34,14 +34,21 @@
     padding: 10px;
     display: inline-block;
     background-color: aquamarine;
-    box-shadow: outset inset 0px 0px 16px 4px #9d999d;
+    box-shadow: inset 0px 0px 16px 4px #00000033;
 }
 .pic-heading {
     border: 10px solid #4f7fa5;
+    width: 100px;
     margin: 24px;
-    padding: 20px;
+    padding: 24px;
     background-color: white;
     display: inline-block;
     text-align: center;
-    box-shadow: outset -3px -3px 3px 3px  inset 0px 0px 16px 4px #282728;
-}   
+    box-shadow: 
+        -3px -3px 3px 3px #00000033,  
+        inset 0px 0px 16px 4px #282728;
+}  
+
+.showing-area {
+    text-align: center;
+}
