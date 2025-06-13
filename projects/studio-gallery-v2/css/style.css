@@ -10,9 +10,9 @@
     border: 10px solid #5290a8;
     width: 50px;
     margin: 24px;
-    padding:10px;
+    padding: 10px;
     display: inline-block;
-    background-color:#656576;
+    background-color: #656576;
     border-radius: 50%;
     box-shadow: outset inset 0px 0px 16px 4px ;
 }
@@ -21,9 +21,9 @@
     border: 10px solid #674c58;
     width: 100px;
     margin: 20px;
-    padding:10px;
+    padding: 10px;
     display: inline-block;
-    background-color:#38203c;
+    background-color: #38203c;
     box-shadow: outset -3px -3px 3px 3px inset 0px 0px 16px 4px #9d999d;
 }
 
@@ -31,9 +31,9 @@
     border: 10px solid #1b1417;
     width: 50px;
     margin: 20px;
-    padding:10px;
+    padding: 10px;
     display: inline-block;
-    background-color:aquamarine;
+    background-color: aquamarine;
     box-shadow: outset inset 0px 0px 16px 4px #9d999d;
 }
 .pic-heading {
