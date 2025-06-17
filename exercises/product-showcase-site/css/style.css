@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-container {
+    background-color: black;
+    padding: 48px 0px;
+    color: white;
+}
+
+.dark-container {
+    background-color: #521010;
+    color: white;
+    padding: 48px 0px;
+    text-align: center;
+}
+
+#can-and-box {
+    width: 300px;
+}
+
+#single-column-1 {
+    text-align: center;
+}
+
+.third-container {
+    background-color: black;
+    padding: 48px 0px;
+    color: white;
+    text-align: center;
+}
