@@ -10,6 +10,8 @@ body {
 /* flexbox container */
 #two-columns {
     display: flex;
+    max-width: 800px;
+    margin: 0px auto;
 }
 
 /* flexbox item */
@@ -19,6 +21,7 @@ body {
     width: 250px;
     padding: 24px;
     border-right: 2px solid #72a586;
+    border-left: 2px solid #72a586;
     font-family: 
         'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -45,6 +48,8 @@ body {
 /* flexbox item */
 #main-content {
     flex: 1;
-    padding: 48px;
-    font-family:'Times New Roman', Times, serif
+    padding: 20px 48px;
+    font-family:'Times New Roman', Times, serif;
+    border-right: 2px solid #72a586;
 }
+#f
