@@ -16,19 +16,22 @@ body {
 
 /* flexbox item */
 #sidebar-content {
-    background-color: lightblue;
+    background-color: rgb(192, 208, 214);
     /* flex: 1; */
-    width: 250px;
+    width: 275px;
     padding: 24px;
-    border-right: 2px solid #72a586;
-    border-left: 2px solid #72a586;
+    border-right: 2px solid #aeb3d1;
+    border-left: 2px solid #aeb3d1;
     font-family: 
-        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #sidebar-content h3 {
-    border-bottom: 2px solid #72a586;
+    border-bottom: 2px solid #aeb3d1;
+}
+.indent  {
+    margin-left: 20px;
 }
 
 #sidebar-content ul {
@@ -36,8 +39,8 @@ body {
     padding: 0px;
 }
 
-#sidebar-content ul a {
-    color: #111111;
+#sidebar-content ul li a {
+    color: #5b5479;
     text-decoration: none;
 }
 
@@ -49,7 +52,19 @@ body {
 #main-content {
     flex: 1;
     padding: 20px 48px;
-    font-family:'Times New Roman', Times, serif;
-    border-right: 2px solid #72a586;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: 2px solid #aeb3d1;
 }
-#f
+#main-content h2 {
+    border-bottom: 2px solid #aeb3d1;
+}
+
+#main-content-2 {
+    display: flex;
+    margin: auto;  
+}
+
+#main-content-2 .mytona-logo {
+    width: 200px;
+    padding: 10px;
+}
