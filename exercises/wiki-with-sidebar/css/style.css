@@ -51,7 +51,7 @@ body {
 /* flexbox item */
 #main-content {
     flex: 1;
-    padding: 20px 48px;
+    padding: 10px 48px;
     font-family: 'Times New Roman', Times, serif;
     border-right: 2px solid #aeb3d1;
 }
