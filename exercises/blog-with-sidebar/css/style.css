@@ -4,7 +4,9 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family:
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: linear-gradient(45deg, yellow, rgb(102, 0, 128));
 }
 
@@ -26,7 +28,7 @@ body {
     background-color: rgb(102, 0, 128);
     margin: 0px;
     padding: 12px;
-    color: white;
+    color: yellow;
     font-size: 18px;
     border: 1px solid yellow;
     border-bottom: none;
@@ -95,8 +97,8 @@ body {
 }
 
 #main-content p span {
-    font-weight: bold;
-    color: rgb(243, 239, 239);
+    /* font-weight: bold; */
+    color: rgb(240, 236, 153);
     font-style: italic;
     font-size: 13px;
 }
