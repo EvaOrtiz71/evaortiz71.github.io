@@ -70,3 +70,15 @@ body {
     max-width: 200px;
     box-shadow: -2px -2px 2px #aeb3d1;
 }
+
+#main-content-3 {
+    display: flex;
+    margin: auto;  
+}
+
+#main-content-3 .seekers-notes {
+    width: 50%;
+    margin-left: 8px;
+    max-width: 200px;
+    box-shadow: -2px -2px 2px #aeb3d1;
+}
