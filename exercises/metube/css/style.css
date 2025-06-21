@@ -9,7 +9,7 @@ body {
         Arial, sans-serif;
     background: radial-gradient(
         at top right, 
-        rgb(201, 86, 20),
+        #c95614,
         crimson 
     );
 }
@@ -93,7 +93,7 @@ body {
     border-radius: 50px 0px;
     border-width: 5px;
     border-image: initial;
-    border: 2px solid rgb(41, 21, 100);
+    border: 2px solid #291564;
     box-shadow: -4px -4px 4px #2a2c4c33;
 }
 
