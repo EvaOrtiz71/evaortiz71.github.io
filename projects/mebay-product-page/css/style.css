@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#mebay-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#mebay-sidebar {
+    background-color: lightblue;
+}
+
+#mebay-product {
+    background-color: darkblue; 
+    color: white;
+}
+
+#mebay-details {
+    background-color: aquamarine;
+}
+
+.buttons a {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
