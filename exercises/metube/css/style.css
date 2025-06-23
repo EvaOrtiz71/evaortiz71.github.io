@@ -121,3 +121,25 @@ body {
 .metube-item .video-channel {
     margin-bottom: 4px;
 }
+
+#sidebar i {
+    width: 30px;
+}
+
+#header a:hover #me {
+    color: yellow;
+}
+
+#header a:hover #tube {
+    color:  #ffff00c6;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 45% 0px;
+    border: 2px solid #1a0080;
+    background-color: #1a0080;
+}
+
