@@ -74,6 +74,13 @@ body {
     grid-area: details;
 }
 
+#price-best-offer h2 {
+    margin-bottom: 0px;
+}
+
+#price-best-offer p {
+    margin-top: 0px;
+}
 .button {
     text-align: center;
     column-width: 50%;
@@ -108,6 +115,12 @@ body {
     object-fit: contain;
 }
 
+#mebay-sidebar a #back a:hover {
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 10px;
+}
+
 a .product-pic {
     border: 1px solid green;
     border-radius: 20px;
@@ -126,8 +139,13 @@ a .product-pic {
 
 #mebay-details .bold-momi {
     font-weight: bold;
+    color: black;
 }
- 
+
+#mebay-details a .bold-momi {
+    text-decoration: none;
+}
+
 #mebay-details p {
     font-size:  12px;   
 }
