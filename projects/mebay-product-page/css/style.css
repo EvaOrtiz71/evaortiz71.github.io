@@ -4,28 +4,74 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Container */
 #mebay-page {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 200px 2fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "sidebar product details";
+}
+
+/* item */
+
+#header {
+    grid-area: header;
+    background: linear-gradient(green, lightgreen);
+    padding: 0px 24px;
+    text-align: center;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#m {
+    color: #f90606;
+    font-size: 48px;
+}
+
+#e {
+    color: blue;
+    font-size: 48px;
+}
+
+#b {
+    color: yellow;
+    font-size: 48px;
+
+}
+
+#a {
+    color: blue;
+    font-size: 48px;
+}
+
+#y {
+    color: yellow;
+    font-size: 48px;
 }
 
 #mebay-sidebar {
     /* background-color: lightblue; */
-    padding: 10px 24px;
+    padding: 10px 20px;
+    grid-area: sidebar;
 }
 
 #mebay-product {
     /* background-color: darkblue;  */
     color: white;
-    padding: 10px 24px ;
+    padding: 10px 20px;
+    grid-area: product;
 }
 
 #mebay-details {
     /* background-color: aquamarine; */
-    padding: 10px24px;
+    padding: 10px 20px;
+    grid-area: details;
 }
 
 .button {
@@ -35,7 +81,7 @@ body {
 
 .button a {
     display: inline-block;
-    background-color: blue;
+    background-color: green;
     text-align: center;
     color: white;
     border-radius: 30px;
@@ -48,12 +94,12 @@ body {
     display: inline-block;
     background-color: white;
     text-align: center;
-    color: blue;
+    color: green;
     border-radius: 30px;
     padding: 15px;
     text-decoration: none;
     width: 100%;
-    border: 1px solid blue;
+    border: 1px solid green;
 }
 
 #mebay-sidebar img {
@@ -62,9 +108,16 @@ body {
     object-fit: contain;
 }
 
+a .product-pic {
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: inset 0px 0px 16px 2px green;
+}
+
 #mebay-product img {
     width: 100%;
-    padding: 0px 24px;
+    padding: 0px;
 }
 
 #mebay-details .bold {
@@ -76,5 +129,5 @@ body {
 }
  
 #mebay-details p {
-    font-size:  10px;   
+    font-size:  12px;   
 }
