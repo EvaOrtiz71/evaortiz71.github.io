@@ -17,7 +17,6 @@ body {
 }
 
 /* item */
-
 #header {
     grid-area: header;
     background: linear-gradient(green, lightgreen);
@@ -139,13 +138,35 @@ a .product-pic {
 
 #mebay-details .bold-momi {
     font-weight: bold;
+}
+
+#mebay-details .momi {
+    text-decoration: none;
     color: black;
 }
 
-#mebay-details a .bold-momi {
-    text-decoration: none;
+#mebay-details .momi .bold-momi a:hover {
+    text-decoration: underline;
 }
 
 #mebay-details p {
     font-size:  12px;   
+}
+
+#mebay-details .positive {
+    color: black;
+}
+
+.learn-more {
+    color: black;
+}
+
+#watchlist  i {
+    text-align: center;
+    margin-right: 5px;
+}
+
+#watchlist {
+    display: flex;
+    flex-direction: row;
 }
