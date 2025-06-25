@@ -94,6 +94,7 @@ body {
     padding: 15px;
     text-decoration: none;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .button-2 a {
@@ -106,6 +107,7 @@ body {
     text-decoration: none;
     width: 100%;
     border: 1px solid green;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #mebay-sidebar img {
@@ -161,12 +163,23 @@ a .product-pic {
     color: black;
 }
 
-#watchlist  i {
-    text-align: center;
-    margin-right: 5px;
+#watchlist i {
+    padding-right: 8px;
 }
 
-#watchlist {
-    display: flex;
-    flex-direction: row;
+.protection {
+    color: black;
+}
+
+.see-details {
+    color: black;
+}
+
+.fa-brands {
+    margin: 5px;
+    font-size: 16px;
+}
+
+.cart-info {
+    font-size: 13px;
 }
