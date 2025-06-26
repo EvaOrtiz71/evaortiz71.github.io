@@ -20,6 +20,11 @@
     transition: transform 0.25s, box-shadow 0.25s;
 }
 
+.card-style-2:hover {
+    box-shadow: 4px -4px 4px #601076cc;
+    transform: translateY(-4px)
+}
+
 .card-style-2 img {
     width: 200px;
     border-radius: 50%;
