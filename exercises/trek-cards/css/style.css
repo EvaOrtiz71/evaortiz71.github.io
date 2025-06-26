@@ -11,7 +11,7 @@
 .card-style-1 {
     max-width: 350px;
     box-shadow: 8px 8px 14px #4a4949;
-    background-color: #ffffff;
+    background-color: rgb(232, 241, 232);
     /* Not done all the time */
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
 
 .card-style-1 h2 {
     font-size: 24px;
-    text-align: center;
+    padding-left: 24px;
 }
 
 .card-style-1 p {
@@ -35,9 +35,11 @@
     /* Not done all the time */
     flex: 1;
     margin-bottom: 0px;
+    color: rgb(64, 73, 64);
 }
 
 .card-style-1 a {
+    display: block;
     background-color: green;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -45,12 +47,11 @@
     text-align: center;
     color: white;
     font-size: 20px;
-    transition: 
-        background-color 0.5s, color 0.5s;
+    transition: color 0.5s;
 }
 
 .card-style-1 a:hover {
-    background-color: transparent;
     border: 3px solid green;
-    color: green;
+    color: rgb(245, 248, 245);
+    opacity: 0.8;
 }
