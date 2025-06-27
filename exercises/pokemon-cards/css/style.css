@@ -41,7 +41,7 @@
 }
 
 .pokemon-header .health {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .card-style-3 img {
@@ -49,15 +49,45 @@
     border: 6px solid orange;
 }
 
-.details {
-    background: -o-repeating-linear-gradient(
-        orange, 
-        white,
-        orange
-    );
+.card-style-3 .details {
+    display: flex;
+    background: orange;
     margin: 5px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #pokemon-card-1 {
+    background: repeating-linear-gradient(
+        rgb(193, 213, 193), 
+        rgb(27, 138, 27)
+    );
+}
     
+#pokemon-card-2 {
+     background: repeating-linear-gradient(
+        rgb(193, 213, 193), 
+        rgb(27, 138, 27), 
+        rgb(137, 196, 137)
+    );
+}
+
+#pokemon-card-3 {
+     background: repeating-linear-gradient(
+        rgb(206, 171, 102), 
+        rgb(221, 95, 6), 
+        rgb(206, 171, 102)
+    );
+}
+
+#pokemon-card-4 {
+     background: repeating-linear-gradient(
+        rgb(191, 134, 18), 
+        rgb(122, 10, 139), 
+        rgb(206, 171, 102)
+    );
 }
