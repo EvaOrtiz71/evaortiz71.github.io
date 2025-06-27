@@ -51,16 +51,39 @@
 
 .card-style-3 .details {
     display: flex;
-    background: orange;
+    background: radial-gradient(rgba(225, 165, 55, 0.442), orange );
     margin: 5px 0px;
     font-size: 12px;
     font-weight: bold;
     font-style: italic;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
 }
 
+.card-style-3 .attack {
+    display: flex;
+    margin: 5px 0px;
+    font-size: 12px;
+    font-style: italic;
+    flex-direction: row;
+    padding-top: 10px;
+    align-items: flex-start;
+    border-bottom: 2px solid black;
+}
+
+.card-style-3 .description .bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-style-3 .attack .power {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-style-3 .attack .description {
+    flex: 1;
+}
 #pokemon-card-1 {
     background: repeating-linear-gradient(
         rgb(193, 213, 193), 
@@ -69,7 +92,7 @@
 }
     
 #pokemon-card-2 {
-     background: repeating-linear-gradient(
+    background: repeating-linear-gradient(
         rgb(193, 213, 193), 
         rgb(27, 138, 27), 
         rgb(137, 196, 137)
@@ -77,7 +100,7 @@
 }
 
 #pokemon-card-3 {
-     background: repeating-linear-gradient(
+    background: repeating-linear-gradient(
         rgb(206, 171, 102), 
         rgb(221, 95, 6), 
         rgb(206, 171, 102)
@@ -85,7 +108,7 @@
 }
 
 #pokemon-card-4 {
-     background: repeating-linear-gradient(
+    background: repeating-linear-gradient(
         rgb(191, 134, 18), 
         rgb(122, 10, 139), 
         rgb(206, 171, 102)
