@@ -34,7 +34,6 @@
 .animagram-header {
     padding: 24px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;    
 }
@@ -62,7 +61,6 @@
 
 .animagram-footer {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 24px;
