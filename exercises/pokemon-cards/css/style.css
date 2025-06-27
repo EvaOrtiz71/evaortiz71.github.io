@@ -64,7 +64,6 @@
     display: flex;
     margin: 5px 0px;
     font-size: 12px;
-    font-style: italic;
     flex-direction: row;
     padding-top: 10px;
     justify-content: space-between;
@@ -91,6 +90,21 @@
 .card-style-3 .attack .description {
     flex: 1;
 }
+
+.card-style-3 .data {
+    margin: 5px 0px;
+    font-size: 12px;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: space-between;
+    border: 2px solid goldenrod;
+    padding: 5px;
+}
+
+.card-style-3 .data {
+    flex: 1;
+}
+
 #pokemon-card-1 {
     background: repeating-linear-gradient(
         rgb(193, 213, 193), 
