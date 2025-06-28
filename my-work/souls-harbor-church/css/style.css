@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(228, 223, 217);
+}
+
+#hero-souls-harbor .church-info {
+    /* begin basic hero setup */
+    background-image: url("../images/green-leaves-souls-harbor.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    /* end basic hero setup */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+/* NavBar Setup */
+#navbar-souls-harbor {
+    background: linear-gradient(
+        to bottom, 
+        #338033, 
+        rgb(18, 106, 18)
+    );
+    display: flex;
+    justify-content: space-around;
+    box-shadow: -2px -2px 2px #a1d9b7f4;
+    border-bottom: 2px solid #1a6f1a;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+/* NavBar Anchor Setup */
+#navbar-souls-harbor a {
+    text-decoration: none;
+    color: rgb(241, 238, 234);
+    display: inline-block;
+    padding: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#hero-souls-harbor .church-info {
+    flex: 1;
+}
+
+#hero-souls-harbor #church-name {
+    color: rgb(241, 238, 234);
+    font-size: 96px;
+    opacity: none;
+    padding: 0px;
+}
+
+#hero-souls-harbor h2 {
+    color: rgb(241, 238, 234);
+    font-size: 50px;
+    margin: 0px;
+    opacity: none;
+}
+
+.parallax-banner {
+    height: 100vh;
+    margin: 0px;
+    background-image: url("../images/pasture.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.church-videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid rgb(5, 57, 5);
+    border-top: 2px solid rgb(5, 57, 5);
+    box-shadow: 4px -4px 10px green;
+}
