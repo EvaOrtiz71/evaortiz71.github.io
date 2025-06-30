@@ -7,20 +7,46 @@ body {
     font-family: sans-serif;
 }
 
-#layout {
+#gallery-hero {
+    background-image: url("../images/hero.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#gallery-hero h1 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#gallery-hero h1 {
+    font-size: 72px;
+    margin-bottom: 36px;
+    color: rgb(6, 80, 41);
+}
+
+#layout-gallery {
     max-width: 800px;
     margin: 48px auto;
     text-align: center;
 }
 
+.gallery-title {
+    color: rgb(6, 80, 41);
+}
+
 .vertical-masonry-gallery {
     columns: 3 auto;
-    column-gap: 24px;
-    border: 10px solid pink;
+    column-gap: 28px;
+    border: 10px solid rgb(6, 80, 41);
     padding: 24px;
+    padding-bottom: 8px;
 }
 
 .vertical-masonry-gallery img {
     width: 100%;
     margin-bottom: 24px;
 }
+
