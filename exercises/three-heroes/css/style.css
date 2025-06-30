@@ -20,7 +20,7 @@ body {
 #hero-1 .hero-content {
     text-align: center;
     color: rgb(45, 30, 30);
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 #hero-1 h1 {
@@ -29,20 +29,21 @@ body {
 }
 
 #hero-1 h3 {
-    font-size: 24px;
+    font-size: 30px;
     margin: 0px;
 }
 
 #hero-1 a {
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     background-color: rgb(35, 34, 34);
     color: #f6f3f3;
     text-decoration: none;
-    padding: 24px;
+    padding: 20px;
     margin-top: 36px;
     margin-right: 12px;
     margin-left: 12px;
+    border-radius: 20px;
 }
 
 #hero-2 {
@@ -50,38 +51,40 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center center;
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     position: relative;
-    margin-bottom: 100px;
 }
 
-#hero-2 h1 {
-    font-size: 96px;
+#hero-2 h2 {
+    font-size: 72px;
     position: absolute;
     right: 20%;
     bottom: 50%;
 }
 
-#hero-2 h3 {
-    font-size: 48px;   
+#hero-2 h4 {
+    font-size: 24px;
     position: absolute;
     right: 20%;
-    bottom: 47%;
+    bottom: 50%;
 }
 
 #hero-2 a {
-    font-size: 14px;
-    display: inline-block;
+    font-size: 16px;
+    display: block;
     background-color: #333333;
     color: white;
     text-decoration: none;
-    padding: 24px;
     position: absolute;
     right: 20%;
-    bottom: 41%;
-    margin-top: 24px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 12px;
+    border-radius: 10px;
 }
 
 #hero-3 {
@@ -93,32 +96,33 @@ body {
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    margin-bottom: 100px;
 }
 
 #hero-3 h1 {
     font-size: 120px; 
     position: absolute;
-    left: 20%;
+    left: 15%;
+    margin-top: -45px;
 }
 
 #hero-3 h3 {
     font-size: 40px;   
     position: absolute;
     left: 20%;
-    bottom: 10%;
+    margin-top: 70px;
 }
 
 #hero-3 a {
-    font-size: 14px;
-    display: inline-block;
-    color: rgb(43, 39, 39);
+    font-size: 18px;
+    display: block;
+    color: rgb(246, 241, 241);
     text-decoration: none;
-    padding: 24px;
-    position: absolute;
-    justify-content: flex-start;
-    left: 30%;
-    bottom: 20%;
-    margin-top: 24px;
-    background-color: aqua;
+    background-color: rgb(45, 48, 48);
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-top: 80px;
+    justify-content: center;
 }
