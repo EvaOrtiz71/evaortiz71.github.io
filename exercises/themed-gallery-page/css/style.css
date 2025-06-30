@@ -43,6 +43,7 @@ body {
     border: 10px solid rgb(6, 80, 41);
     padding: 24px;
     padding-bottom: 8px;
+    background-color: rgb(212, 237, 212);
 }
 
 .vertical-masonry-gallery img {
