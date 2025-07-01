@@ -13,7 +13,17 @@ body {
     background-image: url("../images/hi-res/urban-hi-res-1ui7-2.jpg");
     height: 100vh;
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4-2 {
+    background-image: url("../images/hi-res/urban-hi-res-1ui7-2.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center bottom;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,10 +32,23 @@ body {
 #hero-4 .hero-content {
     text-align: center;
     color: white;
-    padding-top: 250px;
+    padding-top: 0px;
+}
+
+#hero-4-2 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 0px;
 }
 
 #hero-4 h2 {
+    font-size: 96px;
+    margin-bottom: 10px;
+    font-family: "Barriecito", system-ui;
+    text-shadow: 0px -5px 0px #1b385f;
+}
+
+#hero-4-2 h2 {
     font-size: 72px;
     margin-bottom: 10px;
     font-family: "Barriecito", system-ui;
@@ -33,6 +56,24 @@ body {
 }
 
 #hero-4 a {
+    font-size: 18px;
+    display: inline-block;
+    background-color: #2d4d76;
+    color: #faf3f3;
+    text-decoration: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding: 10px;
+    margin-right: 12px;
+    margin-left: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 24px;
+    border: 4px ridge #faf3f3;
+}
+
+#hero-4-2 a {
     font-size: 18px;
     display: inline-block;
     background-color: #2d4d76;
