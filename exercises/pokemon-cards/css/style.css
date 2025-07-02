@@ -72,7 +72,6 @@
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 2px solid black;
-    margin-bottom: 24px;
     align-items: center;
     padding-bottom: 24px;
     padding-top: 24px;
@@ -107,7 +106,7 @@
         to bottom right, 
         rgb(155, 217, 155), 
         rgb(70, 203, 70),
-        rgb(162,227,162)
+        rgb(162, 227, 162)
     );
 }
     
