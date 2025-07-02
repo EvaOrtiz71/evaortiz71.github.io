@@ -189,6 +189,10 @@ span {
     text-align: center;
 }
 
+.paragraph {
+    font-size: 12px;
+}
+
 .horizontal-2 {
     columns: 3;
     border: 10px ridge #02212a;
