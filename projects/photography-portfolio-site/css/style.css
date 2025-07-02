@@ -7,8 +7,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #212020;
+    background-image: url("../images/body-pic-graffiti-alley.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
 }
+
 #hero-4 {
     background-image: url("../images/hi-res/urban-hi-res-1ui7-2.jpg");
     height: 100vh;
