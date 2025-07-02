@@ -152,8 +152,8 @@ body {
 .portrait-h2 {
     border: 6px ridge #02212a;
     background-color: rgb(28, 30, 30);
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -171,8 +171,8 @@ body {
 .horizontal-h2 {
     border: 6px ridge #02212a;
     background-color: rgb(28, 30, 30);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     text-align: center;
     display: flex;
     flex-direction: column;
