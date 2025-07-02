@@ -23,7 +23,7 @@ body {
 }
 
 #hero-4-2 {
-    background-image: url("../images/hi-res/urban-hi-res-1ui7-2.jpg");
+    background-image: url("../images/hi-res/urban-hi-res-2nse.jpg");
     height: 60vh;
     background-size: cover;
     background-position: center bottom;
@@ -61,7 +61,7 @@ body {
 #hero-4 a {
     font-size: 18px;
     display: inline-block;
-    background-color: rgb(28, 30, 30);
+    background-color: rgb(34, 36, 36);
     color: #faf3f3;
     text-decoration: none;
     padding-left: 24px;
@@ -72,7 +72,7 @@ body {
     font-weight: bold;
     border-radius: 5px;
     margin-top: 24px;
-    border: 6px ridge #02212a;
+    border: 6px outset #02212a;
 }
 
 #hero-4-2 a {
@@ -89,7 +89,7 @@ body {
     font-weight: bold;
     border-radius: 5px;
     margin-top: 0px;
-    border: 6px ridge #02212a;
+    border: 6px outset #02212a;
 }
 
 #nav-bar {
@@ -108,6 +108,28 @@ body {
     color: #faf3f3;
     font-weight: bold;
     font-size: 20px;
+}
+
+#nav-bar-2 {
+    border-bottom: 10px ridge #02212a;
+    border-top: 10px ridge #02212a;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(28, 30, 30);
+}
+
+#nav-bar-2 a {
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    text-decoration: none;
+    color: #faf3f3;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#nav-bar span a {
+    text-decoration: underline;
 }
 
 #layout {
@@ -132,8 +154,8 @@ body {
 
 .vertical {
     columns: 4;
+    column-gap: 10px;
     border: 10px ridge #02212a;
-    gap: 48px;
     background-color:  rgb(49, 54, 54);
     padding: 24px;
     padding-top: 24px;
@@ -195,8 +217,9 @@ span {
 
 .horizontal-2 {
     columns: 3;
+    column-gap: 24px;
     border: 10px ridge #02212a;
-    gap: 24px;
+    gap: 10px;
     background-color:  rgb(49, 54, 54);
     padding: 24px;
 }
@@ -254,15 +277,15 @@ span {
     color: #faf3f3;
     text-decoration: none;
     padding: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 12px;
+    padding-right: 12px;
     margin-right: 12px;
     margin-left: 12px;
     color: #ffffff;
     font-weight: bold;
     border-radius: 5px;
     margin-top: 0px;
-    border: 6px ridge #02212a;
+    border: 6px outset #02212a;
     margin-bottom: 50px;
 }
 
