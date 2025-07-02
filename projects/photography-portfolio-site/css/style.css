@@ -152,24 +152,19 @@ body {
 .portrait-h2 {
     border: 6px ridge #02212a;
     background-color: rgb(28, 30, 30);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 48px;
+    padding-bottom: 48px;
     text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
     color: rgb(237, 242, 244);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .portrait-h2 {
-    flex: 1;
-}
-
-.horizontal-h2 {
     flex: 1;
 }
 
@@ -185,8 +180,8 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     color: rgb(237, 242, 244);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 span {
