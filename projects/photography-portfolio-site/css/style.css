@@ -133,7 +133,7 @@ body {
     gap: 24px;
     background-color: rgb(122, 161, 176);
     padding:24px;
-    padding-top: 24px
+    padding-top: 24px;
 }
 
 .vertical h3 {
@@ -174,7 +174,14 @@ body {
     background-color: rgb(122, 161, 176);
     flex: 1;
     border: 10px ridge #2d4d76;
+    transition: transform 0.25s, box-shadow 0.25s;
 }
+
+.card :hover {
+    box-shadow: -8px 8px 8px rgba(11, 84, 110, 0.8);
+    transform: translateX(-8px);
+}
+
 
 /* <!-- CARD CONTAINER & CONTENT--> */
 .card h4 {
