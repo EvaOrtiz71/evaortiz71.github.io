@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
 }
@@ -5,41 +7,71 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #ece9e4;
 }
 
 /* Navbar settings and style */
-#navbar {
+#navbar-1 {
     background: linear-gradient(
         to bottom, 
-        rgb(84, 8, 116), 
-        #800d82
+        rgb(178, 175, 139), 
+        #c79d7f
     );
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-evenly;
     align-items: center;
+    border-bottom: 4px inset #8d1e2d;
 }
 
-/* Navigation Bar anchors */
-#navbar a {
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-1 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #603913;
     padding: 24px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-/* Image settings */
-#navbar img {
+#navbar-1 img {
     width: 200px;
 }
 
-/* Moving Space not the Content */ 
-/* Note: This action replaced the justify-content: space-between; */
-#navbar #logo {
+#navbar-2 {
+    background: linear-gradient(
+        to bottom, 
+        rgb(239, 243, 236), 
+        #9aa2e2
+    );
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 6px ridge #392992;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: #1c75bc;
+    padding: 26px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar-2 img {
+    width: 200px;
+}
+
+#navbar-2 #logo {
     margin-right: auto;
 }
-/* Call to Action Button */
-#navbar .cta-button {
-    background-color: white;
-    color: rgb(84, 8, 116);
+
+#navbar-2 .cta-button {
+    background-color: #cad2dd;
+    color: #1c75bc;
     border-radius: 26px;
     padding: 16px 24px;
     font-size: 20px;
@@ -47,13 +79,38 @@ body {
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 4px outset #1c75bc;
 }
 
-#layout {
-    width: 800px;
+#layout-1 {
+    width: 600px;
     margin: 48px auto;
     font-size: 24px;
-    height: 200vh;
+    height: 150vh;
+}
+
+#layout-1 h2{
+    color: #8a7d58;
+}
+
+#layout-1 p {
+    color: #4d4a3c
+}
+
+#layout-2 {
+    width: 600px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 150vh;
+}
+
+#layout-2 h1{
+    color: #392992;
+}
+
+#layout-2 p {
+    color: #4d4a3c
 }
 
 #header {
@@ -61,7 +118,7 @@ body {
     top: 0px;
 }
 
-#navbar-bottom {
+#navbar-bottom-3 {
     background: linear-gradient(
         to bottom, 
         rgb(78, 2, 63), 
