@@ -103,6 +103,17 @@ body {
     height: 150vh;
 }
 
+#layout-3 {
+    width: 600px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 150vh;
+}
+
+#layout-3 h1 {
+    color: orangered
+}
+
 #layout-2 h1 {
     color: #392992;
 }
