@@ -21,7 +21,6 @@ body {
 
 #hero-adopt .hero-content {
     text-align: left;
-    color: rgb(235, 230, 230);
     padding-top: 20px;
     display: flex;
     flex-direction: row;
@@ -35,7 +34,8 @@ body {
     background-color: rgb(85, 24, 142);
     border-radius: 50%;
     margin:48px;
-    color: rgb(248, 128, 8);
+    color: white;
+    top: 0px;
 }
 
 #hero-adopt h2 {
@@ -60,6 +60,74 @@ body {
     font-weight: bold;
 } */
 
+/* NAVBAR SETTINGS */
+#navbar-container {
+    background: linear-gradient(
+        to bottom, 
+        #540872, 
+        #cb600f
+    );
+    display: flex;
+    align-items: center;
+}
+
+/* NAVBAR CONTENT SETTINGS */
+#navbar-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-container #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar-container a:hover {
+    background: linear-gradient(
+        to top, 
+        #540872, 
+        #cb600f
+    );
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-menu a {
+    background-color: rgb(85, 24, 142);
+    width: 100%;
+    min-width: 200px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#navbar-container .dropdown-menu a:hover {
+    background: rgb(112, 43, 176);
+}
+
+/* Pseudo :last-child
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+} */
+
 .adopt-layout {
     width: 50%;
     min-width: 500px;
@@ -80,11 +148,12 @@ body {
 .adopt-layout #layout-content-1 p {
     font-size: 18px;
     font-weight: bold;
+    color: rgb(248, 128, 8)
 }
 
 .adopt-layout #layout-content-1 h2 {
     font-size: 40px;
-    color: rgb(248, 128, 8);
+    color: white;
 }
 
 .adopt-layout #layout-content-1 {
@@ -118,6 +187,7 @@ body {
 
 .pet-info span {
     color: rgb(248, 128, 8);
+    font-size: 24px;
 }
 
 #sunshine {
