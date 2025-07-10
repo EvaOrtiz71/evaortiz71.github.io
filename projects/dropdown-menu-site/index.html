@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dropdown Menu Site Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
@@ -14,9 +15,9 @@
             
             <!-- dropdown-container for dropdown-menu -->
             <div class="dropdown-container">
-                <a href="#">
+                <a href="#" id="adopt">
                     Adopt 
-                    <fontAwesomeIcon icon="fa-solid fa-circle-chevron-down"/>
+                    <i class="fa-solid fa-chevron-down"></i>
                 </a>
                 <div class="dropdown-menu">
                     <a href="adoption-page-1.html">Sunshine</a>
@@ -25,11 +26,11 @@
                 </div>
                 <a href="#">
                     About Us
-                    <fontAwesomeIcon icon="fa-solid fa-circle-chevron-down"/>
+                    <i class="fa-solid fa-chevron-down"></i>
                 </a>
                 <a href="#">
                     Volunteer
-                    <fontAwesomeIcon icon="fa-solid fa-circle-chevron-down"/>
+                    <i class="fa-solid fa-chevron-down"></i>
                 </a>
             </div>
 
@@ -38,21 +39,26 @@
         <!-- Hero Container -->
         <div id="hero-adopt">
             <div class="hero-content">
-                <h1>Adopt Me</h1>
+                <a href=""><h1>Adopt Me</h1></a>
             </div>
         </div>
         
         <!-- Layout Container -->
         <div class="adopt-layout">
             <div id="layout-content-1" class="layout-info">
-                <h3>We have Dogs, Cats and Birds that need homes.</h3>
+                <h3>We have Cats, Dogs and Birds
+                <br>    
+                    that need a HOME.
+                </h3>
                 <h2>Adopt a Pet Today!</h2>
                 <p>
-                    Meet your new pet and get to know them.
+                    Meet your new pet today and gain 
+                    <br>
+                    a special friend.
                 </p>
             </div>
             <div id="card-pic" class="card">
-                <div class="card-front"></div>
+                <div class="card-front"><a href="adopt">Learn More</a></div>
                 <div class="card-back">
                     <div class="card-content">
                         <p id="adopt-info">
