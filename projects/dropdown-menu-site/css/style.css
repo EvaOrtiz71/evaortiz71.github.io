@@ -15,27 +15,23 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
+    border: #cb600f;
 }
 
 #hero-adopt .hero-content {
-    text-align: left;
+    text-align: right;
     padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+    justify-content: right;
 }
 
 #hero-adopt h1 {
     font-size: 60px;
     margin-bottom: 36px;
     padding: 24px;
-    background-color: rgb(85, 24, 142);
-    border-radius: 50%;
     margin:48px;
-    color: white;
-    top: 0px;
+    color:  rgb(85, 24, 142);
 }
 
 #hero-adopt h2 {
