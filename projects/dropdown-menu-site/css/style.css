@@ -198,10 +198,10 @@ body {
 }
 .card-front a {
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     display: block;
-    font-size: 30px;
-    color: rgb(80, 10, 90);
+    font-size: 24px;
+    color: orangered;
     font-weight: bold;
 }
 
@@ -255,5 +255,5 @@ body {
 
 /* MOBILE BREAKDOWN */
 @media screen and (max-width:300px) {
-    
+
 }
