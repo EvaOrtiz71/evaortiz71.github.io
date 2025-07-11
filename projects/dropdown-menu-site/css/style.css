@@ -11,12 +11,12 @@ body {
 
 #hero-adopt {
     background-image: url("../images/hero-background.jpg");
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: left;
-    align-items: center top;
+    align-items: center;
     border-bottom: 6px ridge rgb(85, 24, 142);
     border-top: 6px ridge rgb(85, 24, 142);
 }
@@ -40,7 +40,7 @@ body {
     rotate: -15deg;
     text-decoration: none;
     font-family: Verdana;
-    margin-left: 20px;
+    margin-left: 30px;
     border: 3px ridge #540872;
 } 
 
@@ -94,7 +94,7 @@ body {
 
 .dropdown-menu a {
     background-color: rgb(85, 24, 142);
-    width: 50%;
+    width: 100%;
 }
 
 .dropdown-container:hover .dropdown-menu {
@@ -157,6 +157,13 @@ body {
     margin: 48px;
     border: 3px solid orangered;
     border-radius: 24px;
+    box-shadow: 4px -4px 4px #51505133;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.pet-info:hover {
+    box-shadow: -8px 8px 8px rgba(95, 16, 117, 0.8);
+    transform: translateX(-8px);
 }
 
 #polly {
@@ -249,11 +256,30 @@ body {
 }
 
 /* TABLET BREAKPOINT */
-@media screen and (max-width: 740px){
+@media screen and (max-width: 700px) {
+    #hero-adopt a {
+    font-size: 20px;
+    rotate: -20deg;
+}
 
+#navbar-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    /* padding: px; */
+    font-size: 14px;
+}
+
+#navbar-container #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    /* padding-top: 6px;
+    padding-bottom: 8px; */
+}
 }
 
 /* MOBILE BREAKDOWN */
-@media screen and (max-width:300px) {
+@media screen and (max-width: 450px) {
 
 }
