@@ -58,7 +58,7 @@ body {
 
 /* NAVBAR CONTENT SETTINGS */
 #navbar-container a {
-    display: in-block;
+    display: inline-block;
     text-decoration: none;
     color: white;
     padding: 24px;
@@ -78,6 +78,7 @@ body {
         #540872, 
         orangered
     );
+    border: 2px outset #540872;
 }
 
 .dropdown-container {
@@ -176,7 +177,9 @@ body {
     border-radius: 24px;
 }
 
-.pet-info h1, p {
+.pet-info 
+h1, 
+p {
     color: white;
 }
 
@@ -293,36 +296,63 @@ body {
     #navbar-container {
         display: flex;
         flex-direction: column;
-        align-items: center;
         border-bottom: 2px outset #540872;
     }
 
+    #navbar-container a {
+        padding: 5px;
+    }
+
+    .dropdown-menu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+    }
+
     #navbar-container #logo {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     #hero-adopt a {
-        font-size: 16px;
+        font-size: 14px;
         padding: 24px;
         margin: 60px;
         padding-bottom: 2px;
         padding-top: 2px;
         rotate: -15deg;
-        margin-left: 30px;
+        margin-left: 24px;
     }
 
     #hero-adopt {
         height: 75vh;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        border-bottom: 6px ridge rgb(85, 24, 142);
-        border-top: 6px ridge rgb(85, 24, 142);
     }
 
-    .card-pic {
-        position: absolute;
+    .pet-info {
+        width: 100%;
+        display: block;
+        text-align: center;
+        background-color: rgb(85, 24, 142);
+        padding: 24px;
+        margin: 48px;
+        border: 3px solid orangered;
+        border-radius: 24px;
+        box-shadow: 4px -4px 4px #51505133;
+        transition: none;
+    }
+
+    .adopt-layout {
+        min-width: 0px;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #sunshine {
+        min-width: 50%;
+    }
+
+    #card-pic {
+        margin: 24px;
+        position: none;
     }
 }
