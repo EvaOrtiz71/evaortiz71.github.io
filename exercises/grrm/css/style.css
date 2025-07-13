@@ -441,7 +441,7 @@ body {
 /*********************** Tablet BREAK DOWN ************************/
 @media screen and (max-width: 1000px) and (min-width: 801px) {
     body {
-        background: green;
+        /* background: green; */
     }
 
     #grid-layout {
@@ -475,7 +475,7 @@ body {
 /*********************** Mobile BREAK DOWN ************************/
 @media screen and (max-width: 800px) {
     body {
-        background: red; 
+        /* background: red;  */
     }
 
     #grid-layout {
@@ -523,8 +523,9 @@ body {
         justify-content: space-between;
     }
 
+    #search-bar,
     #search-button {
-        font-size: 12px;
+      display: none;
     }
 
     #nav {
