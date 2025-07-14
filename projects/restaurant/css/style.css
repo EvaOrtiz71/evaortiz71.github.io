@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Federo&family=Playwrite+IN:wght@100..400&family=Rubik+Glitch&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Federo", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #a4f1ec;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 2px ridge #00A99D;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-order-now {
+    border: 2px outset #00A99D;
+    border-radius: 24px;
+    padding: 10px;
+    background: #85dbd5;
+}
+
+.button-order-now a {
+    font-weight: bold;
+}
+
+.navbar img {
+    width: 150px;
+}
+
+.hero-1 {
+    background-image: url("../images/heroes-pic/artistic-dining-space.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.hero-1 .content {
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding-top: px;
+    border: 2px ridge #00A99D;
+    background-color: black;
+    padding: 24px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    font-size: 60px;
+    color: #85dbd5;
+}
+
+.content img {
+    width: 200px;
+}
+
+.content a {
+    display: inline-block;
+    font-size: 16px;
+    color: #85dbd5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.layout {
+    background-color: lightgreen;
+    width: 1000px;
+    margin: 48px auto;
+}
