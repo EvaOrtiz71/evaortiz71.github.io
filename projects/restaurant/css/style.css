@@ -7,8 +7,10 @@
 body {
     margin: 0px;
     font-family: "Federo", sans-serif;
+    background: linear-gradient(#c5e2e0, #bae0de);
 }
 
+/* Navigation Bar settings */
 .navbar {
     display: flex;
     flex-direction: row;
@@ -22,6 +24,7 @@ body {
     border-bottom: 2px ridge #00A99D;
 }
 
+/* Navigation Content settings */
 .navbar a {
     text-decoration: none;
     color: black;
@@ -42,24 +45,24 @@ body {
     width: 150px;
 }
 
+/* Hero Settings */
 .hero-1 {
     background-image: url("../images/heroes-pic/artistic-dining-space.jpg");
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
-    top: 0px;
+    flex-direction: column;
 }
 
+/* Hero content settings */
 .hero-1 .content {
-    position: absolute;
     text-align: center;
     color: white;
     padding-top: px;
-    border: 2px ridge #00A99D;
+    border: 4px ridge #00A99D;
     background-color: black;
     padding: 24px;
 }
@@ -74,10 +77,13 @@ body {
 .content h1 {
     font-size: 60px;
     color: #85dbd5;
+    margin: 0px;
 }
 
 .content img {
     width: 200px;
+    border: 2px inset #00A99D;
+    border-radius: 10px;
 }
 
 .content a {
@@ -85,10 +91,67 @@ body {
     font-size: 16px;
     color: #85dbd5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
 }
 
+.hero-2 {
+    background-image: url("../images/heroes-pic/art-gallery-interior.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar-sale {
+    border-bottom: 2px ridge #00A99D;
+    border-top: 2px ridge #00A99D;
+    background: #a4f1ec;
+    padding: 10px;
+    /* display: inline-block; */
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.navbar-sale .bold {
+    font-weight: bold;
+    color: #00A99D;
+    text-decoration: underline #00A99D;
+}
+
+.navbar-sale a {
+    text-decoration: none;
+    padding: 0px;
+}
+
+.navbar-sale .italic {
+    font-style: italic;
+}
+
+/* Layout settings */
 .layout {
-    background-color: lightgreen;
-    width: 1000px;
+    width: 600px;
     margin: 48px auto;
+    font-size: 24px;
+    height: 150vh;
+}
+
+/* Gallery Setup */
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    border: 5px inset #00A99D;
+}
+
+.basic-grid-gallery img {
+    width: 100%;
+}
+
+.layout h3 {
+    text-align: center;
 }
