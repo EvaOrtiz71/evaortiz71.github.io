@@ -7,34 +7,33 @@
 body {
     margin: 0px;
     font-family: "Federo", sans-serif;
-    background: linear-gradient(#c5e2e0, #bae0de);
+    background: linear-gradient(#dae3e3, #d4d8d8);
 }
 
 /* Navigation Bar settings */
 .navbar {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     background: #a4f1ec;
     align-items: center;
     position: sticky;
     top: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-bottom: 2px ridge #00A99D;
+    border-bottom: 4px ridge #00A99D;
 }
 
 /* Navigation Content settings */
 .navbar a {
     text-decoration: none;
     color: black;
+    padding: 10px;
 }
 
 .button-order-now {
     border: 2px outset #00A99D;
-    border-radius: 24px;
+    border-radius: 36px;
     padding: 10px;
     background: #85dbd5;
+
 }
 
 .button-order-now a {
@@ -95,6 +94,26 @@ body {
 }
 
 .hero-2 {
+    background-image: url("../images/menu-pics/delmonico-steak.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-2 h1 {
+    font-size: 50px;
+    color: #000000;
+    border: 4px inset #85dbd5;
+    border-radius: 24px;
+    background-color: #85dbd5;
+    padding: 10px;
+}
+
+.hero-3 {
     background-image: url("../images/heroes-pic/art-gallery-interior.jpg");
     height: 70vh;
     background-size: cover;
@@ -103,6 +122,18 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-bottom: 4px outset #00A99D;
+}
+
+.hero-3 h1 {
+    font-size: 50px;
+    color: #000000;
+    border: 4px inset #85dbd5;
+    border-radius: 24px;
+    background-color: #85dbd5;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .navbar-sale {
@@ -134,7 +165,7 @@ body {
 
 /* Layout settings */
 .layout {
-    width: 600px;
+    width: 800px;
     margin: 48px auto;
     font-size: 24px;
     height: 150vh;
@@ -142,16 +173,134 @@ body {
 
 /* Gallery Setup */
 .basic-grid-gallery {
+    width: 1000px;
+    margin: 48px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 24px;
     border: 5px inset #00A99D;
+    background-color: #000000;
+    gap: 10px;
 }
 
 .basic-grid-gallery img {
     width: 100%;
+    gap: 5px;
+    border-radius: 10px;
 }
 
-.layout h3 {
+#layout .basic-grid-gallery
+h3,
+h2,
+h1,
+p {
     text-align: center;
+    color:#00A99D;
+    margin: 0px;
+}
+
+#menu-title, 
+#sneak {
+    margin-top: 24px;
+    color: #000000;
+}
+
+#mission,
+#history {
+    text-align: left;
+    color: black
+}
+
+.p-mis-his {
+    text-align: left;
+    color: #000000;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#our-menu {
+    color: #000000;
+}
+
+.menu-list {
+    width: 1000px;
+    margin: 48px auto;
+    padding: 24px;
+    border: 5px inset #00A99D;
+    background-color: #000000;
+}
+
+.menu-info {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-info 
+h4, 
+p {
+    color: #00A99D;
+    font-weight: 100;
+}
+
+.menu-list h2 {
+    background-color: #a4f1ec;
+    border-bottom: 1px inset #00A99D;
+    color: #000000;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.menu-list img {
+    width: 50%;
+    border: 3px inset #00A99D;
+    border-radius: 10px;
+}
+
+.img-set {
+    border: 2px inset #00A99D;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #a4f1ec;
+    align-items: center;
+    border-bottom: 4px ridge #00A99D;
+    border-top: 4px ridge #00A99D;
+    margin-top: 48px;
+
+}
+
+.footer-content {
+    text-align: center;
+}
+.restaurant-info {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    background-color: #000000;
+    padding: 48px;
+    
+}
+
+.cards p {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cards:hover {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        tranform 0.5s;
 }

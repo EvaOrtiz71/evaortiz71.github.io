@@ -4,8 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Restaurant Site Menu</title>
-        <link href="css/style.css" rel="stylesheet">
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer"
+        >
+    <link href="css/style.css" rel="stylesheet">
     </head>
+
     <body>
         <div class="navbar">
             <a href="index.html">
@@ -24,32 +32,157 @@
             </div>
         </div>
         <div class="hero-2">
-            <h1>Delmonico Night !</h1>
+            <h1>Delmonico Night</h1>
         </div>
-
-        <div id="menu-list">
-
-        </div>
-
+        <h3 class="navbar-sale">
+            Special
+            <a href="#">
+                <span class="bold">20% OFF</span>
+            </a>
+            <span class="italic">"July 2025"</span>
+            <a href="#">
+                <span class="bold">Delmonico Steak !</span>
+            </a>
+        </h3>
         <div id="layout">
-            <h3>Palette & Plate Menu</h3>
+            <h1 id="menu-title">Featured Plates</h1>
             <div class="basic-grid-gallery">
-                <img 
-                    src="images/menu-pics/appetizers.jpg" 
-                    alt="appetizers"
-                >
-                <img 
-                    src="images/menu-pics/duck-confit.jpg" 
-                    alt="duck confit"
-                >
-                <img 
-                    src="images/menu-pics/tuscan-bruschetta-arugula-salad.jpg" 
-                    alt="salad"
-                >
+                <div id="appetizers">   
+                    <img 
+                        src="images/menu-pics/appetizers.jpg" 
+                        alt="appetizers"
+                    >
+                    <h3>APPETIZERS</h3>
+                </div>
+                <div id="featured-plate">  
+                    <img 
+                        src="images/menu-pics/delmonico-steak.jpg" 
+                        alt="delmonico-steak"
+                        class="img-set"
+                    >
+                    <h2>MAIN DISH</H2>
+                    <h3>Featured Plate</h3>
+                    <p>Delmonico Steak</p>
+                </div>
+                <div id="salads">
+                    <img 
+                        src="images/menu-pics/tuscan-bruschetta-arugula-salad.jpg" 
+                        alt="tuscan-bruschetta-arugula-salad"
+                    >
+                    <h3>SALADS</h3>
+                </div>
+            </div>
+            <h1 id="our-menu">Our Menu</h1>
+            <div class="menu-list">
+                <h2>Appetizers</h2>
+                <div class="menu-info">
+                    <img 
+                        src="images/menu-pics/bacon-fig-jam-goat-cheese-bruschetta.jpg"
+                        alt="bacon-fig-jam-goat-cheese-bruschetta"
+                    >
+                    <h4>Bacon Figjam Goat Cheese Bruschetta</h4>
+                    <p>$ 10.99</p>
+                </div>
+                <hr>
+                <div class="menu-info">
+                    <img 
+                        src="images/menu-pics/appetizers-2.jpg"
+                        alt="Breaded Chicken on Toast"
+                    >
+                    <h4>Breaded Chicken on Toast</h4>
+                    <p>$ 13.99</p>
+                </div>
+                <hr>
+                <div class="menu-info">
+                    <img 
+                        src="images/menu-pics/asian-cuisine-2.jpg"
+                        alt="bacon-fig-jam-goat-cheese-bruschetta"
+                    >
+                    <h4>Bacon Figjam Goat Cheese Bruschetta</h4>
+                    <p>$ 10.99</p>
+                </div>
+                <hr>
+                <div class="menu-info">
+                    <img 
+                        src="images/menu-pics/asian-cuisine.jpg"
+                        alt="bacon-fig-jam-goat-cheese-bruschetta"
+                    >
+                    <h4>Bacon Figjam Goat Cheese Bruschetta</h4>
+                    <p>$ 10.99</p>
+                </div>
+                <hr>
+                <div class="menu-info">
+                    <img 
+                        src="images/menu-pics/appetizers.jpg"
+                        alt="bacon-fig-jam-goat-cheese-bruschetta"
+                    >
+                    <h4>Bacon Figjam Goat Cheese Bruschetta</h4>
+                    <p>$ 10.99</p>
+                </div>
+                <h2>Salads</h2>
+                <div class="menu-info">
+                    <img 
+                        src="images/menu-pics/tuscan-bruschetta-arugula-salad.jpg"
+                        alt="bacon-fig-jam-goat-cheese-bruschetta"
+                    >
+                    <h4>Tuscan Bruschetta-arugula-salad</h4>
+                    <p>$ 11.99</p>
+                </div>
+                <hr>
+                 <div class="menu-info">
+                    <img 
+                        src="images/menu-pics/salads-1.jpg"
+                        alt="bacon-fig-jam-goat-cheese-bruschetta"
+                    >
+                    <h4>Salad Wrap Caprese</h4>
+                    <p>$ 12.99</p>
+                </div>
+                <h2>Main Dish</h2>
+                <div class="menu-info">
+                    <img 
+                        src="images/menu-pics/delmonico-steak.jpg"
+                        alt="Delmonico Steak"
+                    >
+                    <h4>Delmonico-Steak</h4>
+                    <p>$ 35.99</p>
+                </div>
+                <hr>
+                 <div class="menu-info">
+                    <img 
+                        src="images/menu-pics/calamari-curry-3.jpg"
+                        alt="Calamari Curry"
+                    >
+                    <h4>Calamari Curry</h4>
+                    <p>$ 25.99</p>
+                </div>
+                <h2>Dessert</h2>
+                <div class="menu-info">
+                    <img 
+                        src="images/menu-pics/dessert-fruits-coffee.jpg"
+                        alt="Deluxe Croissant with Coffee"
+                    >
+                    <h4>Deluxe Croissant with Coffee</h4>
+                    <p>$ 10.99</p>
+                </div>
+                <hr>
+                 <div class="menu-info">
+                    <img 
+                        src="images/menu-pics/dessert.jpg"
+                        alt="Assorted Pastries"
+                    >
+                    <h4>Assorted Pastries</h4>
+                    <p>$ 8.99</p>
+                </div>
             </div>
         </div>
 
         <div class="footer">
+            <div class="footer-content">
+                <h3>
+                <i class="fa-solid fa-copyright"></i>
+                Palette & Plate Gallery
+                </h3>
+            </div> 
         </div>
     </body>
 </html>
