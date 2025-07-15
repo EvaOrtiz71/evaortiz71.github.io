@@ -188,11 +188,10 @@ body {
     border-radius: 10px;
 }
 
-#layout .basic-grid-gallery
-h3,
-h2,
-h1,
-p {
+#layout .basic-grid-gallery h3,
+#layout .basic-grid-gallery h2,
+#layout .basic-grid-gallery h1,
+#layout .basic-grid-gallery p {
     text-align: center;
     color: #00A99D;
     margin: 0px;
@@ -239,9 +238,8 @@ p {
     justify-content: space-evenly;
 }
 
-.menu-info 
-h4, 
-p {
+.menu-info h4, 
+.menu-info p {
     color: #00A99D;
     font-weight: 100;
 }
@@ -284,7 +282,6 @@ p {
     margin: 48px auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .cards {
@@ -301,9 +298,10 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.cards a, hr {
+.cards a {
     text-decoration: none;
     display: block;
+    color: #00A99D;
 }
 
 .cards:hover {
@@ -312,6 +310,10 @@ p {
     transform: translateY(-4px);
     color: #000000;
     border: 2px inset #00A99D;
+}
+
+.cards:hover a {
+    color: #000000;
 }
 
 #cards {
