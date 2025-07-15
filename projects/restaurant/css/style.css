@@ -33,7 +33,7 @@ body {
     border-radius: 36px;
     padding: 10px;
     background: #85dbd5;
-
+    margin-right: 24px;
 }
 
 .button-order-now a {
@@ -197,10 +197,10 @@ body {
     margin: 0px;
 }
 
-#menu-title, 
 #sneak {
-    margin-top: 24px;
+    margin-top: 48px;
     color: #000000;
+    text-align: center;
 }
 
 #mission,
@@ -256,6 +256,20 @@ body {
     width: 50%;
     border: 3px inset #00A99D;
     border-radius: 10px;
+}
+
+#menu-title {
+    text-align: center;
+    margin: 48px;
+}
+
+#our-menu {
+    text-align: center;
+}
+
+.menu-h2 {
+    text-align: center;
+    margin-top: 0px;
 }
 
 .img-set {
@@ -321,4 +335,13 @@ body {
         background-color 0.5s,
         box-shadow 0.5s,
         transform 0.5s;
+}
+
+#card3 p {
+    margin: 0px;
+
+}
+
+#card1 p {
+    margin: 0px;
 }
