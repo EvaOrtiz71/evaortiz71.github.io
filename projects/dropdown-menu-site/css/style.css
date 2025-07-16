@@ -297,6 +297,7 @@ p {
         display: flex;
         flex-direction: column;
         border-bottom: 2px outset #540872;
+        text-align: center;
     }
 
     #navbar-container a {
@@ -311,6 +312,8 @@ p {
 
     #navbar-container #logo {
         font-size: 30px;
+        margin-right: none;
+        /* text-align: center; */
     }
 
     #hero-adopt a {
