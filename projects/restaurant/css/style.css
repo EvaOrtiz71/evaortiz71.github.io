@@ -244,8 +244,6 @@ body {
     font-weight: bold;
 }
 
-
-
 .featured-plate img {
     width: 400px;
 }
@@ -378,7 +376,6 @@ body {
 
 #card3 p {
     margin: 0px;
-
 }
 
 #card1 p {
@@ -386,19 +383,53 @@ body {
 }
 
 /* Tablet BreakPoint */
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 1030px) {
     body {
         background-color: firebrick;
     }
 
     .basic-grid-gallery {
-        width: 1000px;
+        max-width: 300px;
+        width: 300px;
         margin: 48px auto;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         padding: 24px;
         border: 5px inset #00A99D;
         background-color: #000000;
         gap: 20px;
+    }
+
+    .navbar {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    .navbar .logo {
+        margin-bottom: 0px;
+    }
+
+    .button-order-now {
+        border: 2px outset #00A99D;
+        border-radius: 36px;
+        padding: 5px;
+        background: #85dbd5;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .restaurant-info {
+        max-width: 300px;
+        width: 300px;
+        margin: 48px auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
