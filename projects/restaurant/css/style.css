@@ -398,7 +398,7 @@ body {
         gap: 20px;
     }
 
-    .hero-1 .content .h1 {
+        .hero-1 .content .h1 {
         font-size: 30px;
     }
 
@@ -452,3 +452,4 @@ body {
         width: 100px;
     }
 }
+
