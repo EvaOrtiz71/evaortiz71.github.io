@@ -85,12 +85,19 @@ body {
     border-radius: 10px;
 }
 
-.content a {
+#hero-button {
     display: inline-block;
-    font-size: 16px;
-    color: #85dbd5;
+    font-size: 18px;
+    color: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    border: 2px outset #00A99D;
+    border-radius: 36px;
+    padding: 10px;
+    background: #85dbd5;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .hero-2 {
@@ -111,6 +118,10 @@ body {
     border-radius: 24px;
     background-color: #85dbd5;
     padding: 10px;
+}
+
+.hero-2 a {
+    text-decoration: none;
 }
 
 .hero-3 {
@@ -216,6 +227,28 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
+.featured-plate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+    margin: 48px auto;
+    padding: 24px;
+    border: 4px outset #00A99D;
+    background-color: #000000;
+    color: #00A99D;
+}
+
+.featured-plate-content  ,bold {
+    font-weight: bold;
+}
+
+
+
+.featured-plate img {
+    width: 400px;
+}
 
 #our-menu {
     color: #000000;
@@ -235,7 +268,9 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 24px;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-items: center;
+    gap: 60px;
 }
 
 .menu-info h4, 
@@ -318,6 +353,10 @@ body {
     color: #00A99D;
 }
 
+#card2 .bold {
+    font-weight: bold;
+}
+
 .cards:hover {
     background-color: #00A99D;
     box-shadow: 4px 4px 4px #00000033;
@@ -344,4 +383,22 @@ body {
 
 #card1 p {
     margin: 0px;
+}
+
+/* Tablet BreakPoint */
+@media screen and (max-width: 610px) {
+    body {
+        background-color: firebrick;
+    }
+
+    .basic-grid-gallery {
+        width: 1000px;
+        margin: 48px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 24px;
+        border: 5px inset #00A99D;
+        background-color: #000000;
+        gap: 20px;
+    }
 }
