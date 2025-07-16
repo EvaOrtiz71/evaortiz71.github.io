@@ -429,7 +429,12 @@ body {
         width: 300px;
         margin: 48px auto;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: none;
         flex-direction: column;
+        justify-content: center;
+    }
+
+    .cards {
+        justify-content: center;
     }
 }
