@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Federo&family=Playwrite+IN:wght@100..400&family=Rubik+Glitch&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,25 +7,45 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/field.jpg");
+    background-size: cover;
 }
 
-.single-column {
-    width: 50%;
-    min-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+.site-container {
+    width: 1000px;
+    margin: 48px auto;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
-.light-container {
-    background-color: lightgreen;
+.football {
+    background: linear-gradient(lightgreen, #427c42);
     padding: 48px 0px;
+    align-items: center;
+    text-align: center;
 }
 
-.dark-container {
-    background-color: #013d01;
+.football h4 {
+    font-weight: bold;
+    font-size: 20px;
     color: white;
-    padding: 48px 0px;
 }
+
+.football h1 {
+    font-weight: bold;
+    font-size: 86PX;
+    color: white;
+    margin-top: ;
+}
+
+.footbLL H2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+
 
 
 
