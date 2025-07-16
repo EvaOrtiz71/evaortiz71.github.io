@@ -398,6 +398,10 @@ body {
         gap: 20px;
     }
 
+    .hero-1 .content .h1 {
+        font-size: 30px;
+    }
+
     .navbar {
         justify-content: center;
         align-items: center;
@@ -413,7 +417,7 @@ body {
         margin-bottom: 0px;
     }
 
-    .button-order-now {
+     .button-order-now {
         border: 2px outset #00A99D;
         border-radius: 36px;
         padding: 5px;
@@ -438,5 +442,13 @@ body {
         font-size: 12px;
         justify-content: center;
         margin-bottom: 10px;
+    }
+
+    .menu-list {
+        width: 500px;
+    }
+
+    .menu-list img {
+        width: 100px;
     }
 }
