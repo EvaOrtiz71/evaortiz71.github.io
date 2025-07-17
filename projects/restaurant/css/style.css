@@ -26,14 +26,25 @@ body {
     text-decoration: none;
     color: black;
     padding: 10px;
+    margin-left: 60px;
 }
 
 .button-order-now {
     border: 2px outset #00A99D;
     border-radius: 36px;
     padding: 10px;
-    background: #85dbd5;
-    margin-right: 24px;
+    margin-right: 60px;
+    background-color: #85dbd5;
+    color: #000000;
+}
+
+.button-order-now:hover {
+    background-color: #00A99D;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    color: #000000;
+    border: 2px inset #00A99D;
+    font-weight: bold;
 }
 
 .button-order-now a {
@@ -100,9 +111,18 @@ body {
     padding-right: 20px;
 }
 
+#hero-button:hover {
+    background-color: #00A99D;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    color: #000000;
+    border: 2px inset #00A99D;
+    font-weight: bold;
+}
+
 .hero-2 {
     background-image: url("../images/menu-pics/delmonico-steak.jpg");
-    height: 70vh;
+    height: 50vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -112,12 +132,21 @@ body {
 }
 
 .hero-2 h1 {
-    font-size: 50px;
+    font-size: 20px;
     color: #000000;
     border: 4px inset #85dbd5;
     border-radius: 24px;
     background-color: #85dbd5;
-    padding: 10px;
+    padding: 14px;
+}
+
+.hero-2 h1:hover {
+    background-color: #00A99D;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    color: #000000;
+    border: 2px inset #00A99D;
+    font-weight: bold;
 }
 
 .hero-2 a {
@@ -214,6 +243,26 @@ body {
     text-align: center;
 }
 
+#button-order-2 {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 5px;
+    border: 2px outset #00A99D;
+    border-radius: 36px;
+    padding: 10px;
+    background: #85dbd5;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+#button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
 #mission,
 #history {
     text-align: left;
@@ -229,23 +278,25 @@ body {
 }
 .featured-plate {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
-    width: 600px;
+    width: 800px;
     margin: 48px auto;
-    padding: 24px;
     border: 4px outset #00A99D;
     background-color: #000000;
     color: #00A99D;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 24px;
 }
 
-.featured-plate-content  ,bold {
+.featured-plate-content .bold {
     font-weight: bold;
 }
 
 .featured-plate img {
-    width: 400px;
+    width: 500px;
 }
 
 #our-menu {
@@ -253,7 +304,7 @@ body {
 }
 
 .menu-list {
-    width: 1000px;
+    width: 800px;
     margin: 48px auto;
     padding: 24px;
     border: 5px inset #00A99D;
@@ -263,11 +314,9 @@ body {
 .menu-info {
     display: grid;
     flex-direction: column;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 24px;
     align-items: center;
-    /* justify-content: space-evenly; */
-    justify-items: center;
     gap: 60px;
 }
 
@@ -286,7 +335,7 @@ body {
 }
 
 .menu-list img {
-    width: 50%;
+    width: 100%;
     border: 3px inset #00A99D;
     border-radius: 10px;
 }
@@ -295,6 +344,18 @@ body {
     text-align: center;
     margin: 48px;
 }
+
+.menu-des p,
+h4 {
+    margin-top: 0px;
+    padding: 0px
+}
+
+.menu-des {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}  
 
 #our-menu {
     text-align: center;
@@ -325,10 +386,12 @@ body {
 }
 
 .restaurant-info {
-    width: 1000px;
     margin: 48px auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 140px;
+    margin-left: 140px;
 }
 
 .cards {
@@ -384,10 +447,6 @@ body {
 
 /* Tablet BreakPoint */
 @media screen and (max-width: 1030px) {
-    body {
-        background-color: firebrick;
-    }
-
     .basic-grid-gallery {
         max-width: 300px;
         width: 300px;
@@ -398,7 +457,7 @@ body {
         gap: 20px;
     }
 
-        .hero-1 .content .h1 {
+    .hero-1 .content .h1 {
         font-size: 30px;
     }
 
@@ -410,20 +469,22 @@ body {
 
     .navbar a {
         font-size: 14px;
-        margin: 0px;
+        margin: 5px;
+        margin-bottom: 20px;
+        margin-top: 0px;
     }
 
     .navbar .logo {
         margin-bottom: 0px;
     }
 
-     .button-order-now {
+    .button-order-now {
         border: 2px outset #00A99D;
         border-radius: 36px;
-        padding: 5px;
+        padding: 24px;
         background: #85dbd5;
         margin-right: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 24px;
     }
 
     .restaurant-info {
@@ -454,7 +515,6 @@ body {
 }
 
 @media screen and (max-width: 830px) {
-    
     .layout {
         width: 500px;
     }
@@ -462,8 +522,13 @@ body {
         font-size: 40px;
     }
 
-    .hero-2 h1 {
-        font-size: 40px; 
+    .featured-plate {
+        width: 500px;
+        padding: 60px;       
+    }
+
+    .featured-plate img {
+        width: 100%;
     }
 }
 
@@ -480,12 +545,16 @@ body {
         width: 400px;
     }
 
-    .featured-plate img{
+    .featured-plate img {
         width: 100%;
     }
 
     .featured-plate p {
         font-size: 14px;
+    }
+    .featured-plate {
+        padding-bottom: 10px;
+        padding-top: 24px;   
     }
 
     .menu-list {
@@ -493,7 +562,7 @@ body {
     }
 
     .menu-list img {
-        width: 50px;
+        width: 100%;
     }
 
     .menu-info h4 {
