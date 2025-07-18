@@ -26,7 +26,6 @@ body {
     text-decoration: none;
     color: black;
     padding: 10px;
-    margin-right: 60px;
     text-align: center;
 }
 
@@ -400,6 +399,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 1048px;
 }
 
 .cards {
@@ -485,10 +485,10 @@ h4 {
     .button-order-now {
         border: 2px outset #00A99D;
         border-radius: 36px;
-        padding: 24px;
         background: #85dbd5;
         margin-right: 0px;
-        margin-bottom: 24px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .restaurant-info {
