@@ -7,14 +7,19 @@ body {
     font-family: sans-serif;
 }
 
-#cards-container {
+
+
+#hover-gallery {
+    margin: 48px auto;
+    width: 800px;
+    max-width: 1000px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .card {
-    flex: 300px;
+    width: 300px;
     border: 3px solid black;
     margin: 24px;
     padding: 24px;
@@ -30,97 +35,103 @@ body {
     padding: 12px;
     margin-top: 36px;
 }
-/* pseudo-class */
-#card1:hover {
-    background-color: lightcyan;
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
-}
 
-#card1 {
-    transition: 
-        background-color 0.5s, 
-        box-shadow 0.5s 
-        transform 0.5s;
-}
-
-#card2 a {
-    transition: 
-        background-color 0.5s,
-        box-shadow 0.5s,
-        transform 0.5s,   
-}
-
-#card2:hover a {
-    background-color: rgb(217, 25, 15);
-    color: whitesmoke;
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
-    border: none;
-    font-weight: bold;
-}
-
-#card3 .card-content {
-    transition:
-        opacity 0.5s, 
-        visibility 0.5s;
-}
-
-#card3:hover .card-content {
-    opacity: 0;
-    visibility: hidden;
-}
-
-#card4 .card-content {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-8px);
-    transition:
-        opacity 0.5s,
-        visibility 0.5s,
-        tranform 0.5s;
-}
-
-#card4:hover .card-content {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0px);
-}
-
-#card5 {
-    position: relative;
-}
-
-#card5 .card-content {
-    position: absolute;
-    background-color: white;
-    border: 3px solid black;
-    border-radius: 12px;
-    box-shadow: 4px 4px 4px #00000033;
-    left: 0px;
-    margin: 0px 24px;
-    padding: 24px;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-8px);
-    transition: 
-        opacity 0.5s, 
-        visibility 0.5s, 
-        transform 0.5s;
-}
-
-#card5:hover .card-content {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0px);
-}
-
-#card6 {
+/* kitty-boo */
+#kitty-boo {
     position: relative;
     border: 0px;
     padding: 0px;
 }
 
+#kitty-boo .card-front,
+#kitty-boo .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+#kitty-boo .card-back {
+    transform: scaleX(0);
+}
+
+#kitty-boo .card-front {
+    background-image: url("../images/cat-1.jpg");
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#kitty-boo .card-front {
+    transition: transform 0.25s 0.25s;
+}
+
+#kitty-boo .card-back {
+    transition: transform 0.25s;
+}
+
+#kitty-boo:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+
+#kitty-boo:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+
+/* kitty-boo-2 */
+#kitty-boo-2 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
+#kitty-boo-2 .card-front,
+#kitty-boo-2 .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+#kitty-boo-2 .card-back {
+    transform: scaleX(0);
+}
+
+#kitty-boo-2 .card-front {
+    background-image: url("../images/cat-2.jpg");
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#kitty-boo-2 .card-front {
+    transition: transform 0.25s 0.25s;
+}
+
+#kitty-boo-2 .card-back {
+    transition: transform 0.25s;
+}
+
+#kitty-boo-2 .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+
+#kitty-boo-2:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+
+/* Mousy */
+#card6 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
 
 #card6 .card-front,
 #card6 .card-back {
@@ -129,13 +140,12 @@ body {
     padding: 24px;
 }
 
-
 #card6 .card-back {
     transform: scaleX(0);
 }
 
 #card6 .card-front {
-    background-image: url("../images/tom-jerry.jpg");
+    background-image: url("../images/cat-1.jpg");
     background-size: cover;
     border-radius: 12px;
     width: 100%;
@@ -144,19 +154,64 @@ body {
 }
 
 #card6 .card-front {
-    transition: 
-        transform 0.25s;
+    transition: transform 0.25s 0.25s;
 }
 
 #card6 .card-back {
-    transition: 
-        transform 0.25s;
+    transition: transform 0.25s;
 }
 
 #card6:hover .card-front {
     transform: scaleX(0);
+    transition: transform 0.25s;
 }
 
 #card6:hover .card-back {
     transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+
+/* Tom & Jerry */
+#card6 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
+#card6 .card-front,
+#card6 .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+#card6 .card-back {
+    transform: scaleX(0);
+}
+
+#card6 .card-front {
+    background-image: url("../images/cat-1.jpg");
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card6 .card-front {
+    transition: transform 0.25s 0.25s;
+}
+
+#card6 .card-back {
+    transition: transform 0.25s;
+}
+
+#card6:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+
+#card6:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
 }
