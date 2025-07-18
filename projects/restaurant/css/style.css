@@ -390,8 +390,6 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-right: 140px;
-    margin-left: 140px;
 }
 
 .cards {
