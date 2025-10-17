@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana;
+    background-image: url("../images/body.jpg");
+    background-size: cover;
+}
+
+#hero-adopt {
+    background-image: url("../images/hero-background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 6px ridge rgb(85, 24, 142);
+    border-top: 6px ridge rgb(85, 24, 142);
+}
+
+#hero-adopt .hero-content {
+    text-align: left;
+    padding-top: 0px;
+}
+
+#hero-adopt a {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 24px;
+    background: linear-gradient(orangered, #5b0b54);
+    border-radius: 50%;
+    margin: 60px;
+    color: white;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    rotate: -15deg;
+    text-decoration: none;
+    font-family: Verdana;
+    margin-left: 30px;
+    border: 3px ridge #540872;
+} 
+
+/* NAVBAR SETTINGS */
+#navbar-container {
+    background: linear-gradient(
+        to bottom, 
+        #540872, 
+        orangered
+    );
+    display: flex;
+    align-items: center;
+    border-bottom: 2px outset #540872;
+}
+
+/* NAVBAR CONTENT SETTINGS */
+#navbar-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-container #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#navbar-container a:hover {
+    background: linear-gradient(
+        to top, 
+        #540872, 
+        orangered
+    );
+    border: 2px outset #540872;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+    border: 2px outset #540872;
+}
+
+.dropdown-menu a {
+    background-color: rgb(85, 24, 142);
+    width: 100%;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#navbar-container .dropdown-menu a:hover {
+    background: rgb(112, 43, 176);
+}
+
+/* 
+    Pseudo :last-child
+    .dropdown-container:last-child .dropdown-menu {
+        right: 0px;
+    } 
+*/
+
+/* LAYOUT CONTAINER */
+.adopt-layout {
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adopt-layout #layout-content-1 {
+    text-align: center;
+    background-color: rgb(85, 24, 142);
+    padding: 24px;
+    margin: 24px;
+    border-radius: 24px;
+}
+
+.adopt-layout #layout-content-1 p {
+    font-size: 18px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.adopt-layout #layout-content-1 h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.adopt-layout #layout-content-1 {
+    color: orangered;
+}
+
+.adopt-layout .pet-info a img {
+    width: 300px;
+    object-fit: cover;
+}
+
+.pet-info {
+    width: 500px;
+    display: block;
+    text-align: center;
+    background-color: rgb(85, 24, 142);
+    padding: 24px;
+    margin: 48px;
+    border: 3px solid orangered;
+    border-radius: 24px;
+    box-shadow: 4px -4px 4px #51505133;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.pet-info:hover {
+    box-shadow: -8px 8px 8px rgba(95, 16, 117, 0.8);
+    transform: translateX(-8px);
+}
+
+#polly {
+    border: 2px solid orangered;
+    border-radius: 24px;
+}
+
+.pet-info 
+h1, 
+p {
+    color: white;
+}
+
+.pet-info span {
+    color: orangered;
+    font-size: 24px;
+}
+
+#sunshine {
+    width: 400px;
+    border: 2px solid orangered;
+    border-radius: 24px;
+}
+
+#mikey {
+    border: 2px solid orangered;
+    border-radius: 24px;
+}
+
+/* (HTML) CARD IN LAYOUT CONTAINER  */
+#card-pic {
+    position: relative;
+    border: 0px;
+    margin-bottom: 48px;
+}
+
+#card-pic .card-front,
+#card-pic .card-back {
+    border: 3px solid rgb(80, 10, 90);
+    border-radius: 12px;
+    padding: 24px;
+}
+.card-front a {
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    font-size: 24px;
+    color: orangered;
+    font-weight: bold;
+}
+
+#card-pic .card-back {
+    transform: scaleX(0);
+    background-color: rgb(85, 24, 142);
+}
+
+#card-pic .card-back p {
+    color: rgb(248, 246, 245);
+    font-size: 12px;
+}
+
+.bold {
+    color: orangered;
+    font-weight: bold;
+}
+
+#card-pic .card-front {
+    background-image: url("../images/layout-pic.jpg");
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+}
+
+#card-pic .card-front {
+    transition: 
+        transform 0.25s 0.25s;
+}
+
+#card-pic .card-back {
+    transition: transform 0.25s;
+}
+
+#card-pic:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25;
+}
+
+#card-pic:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+
+/* TABLET BREAKPOINT */
+@media screen and (max-width: 700px) {
+    #hero-adopt a {
+        font-size: 20px;
+        rotate: -20deg;
+    }
+
+    #navbar-container a {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        /* padding: px; */
+        font-size: 14px;    
+    }
+
+    #navbar-container #logo {
+        margin-right: auto;
+        font-weight: bold;
+        font-size: 36px;
+        /* 
+            padding-top: 6px;
+            padding-bottom: 8px; 
+        */
+    }
+}
+
+/* OTHER AND MOBILE BREAKDOWN */
+@media screen and (max-width: 625px) {
+    #navbar-container {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px outset #540872;
+        text-align: left;
+    }
+
+    #navbar-container a {
+        padding: 5px;
+    }
+
+    .dropdown-menu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #navbar-container #logo {
+        font-size: 30px;
+        margin-right: none;
+        /* text-align: center; */
+    }
+
+    #hero-adopt a {
+        font-size: 14px;
+        padding: 24px;
+        margin: 60px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        rotate: -15deg;
+        margin-left: 24px;
+    }
+
+    #hero-adopt {
+        height: 40vh;
+    }
+
+    .pet-info {
+        width: 100%;
+        display: block;
+        text-align: center;
+        background-color: rgb(85, 24, 142);
+        padding: 24px;
+        margin: 48px;
+        border: 3px solid orangered;
+        border-radius: 24px;
+        box-shadow: 4px -4px 4px #51505133;
+        transition: none;
+    }
+
+    .adopt-layout {
+        min-width: 0px;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #sunshine {
+        min-width: 50%;
+    }
+
+    #card-pic {
+        margin: 24px;
+        position: none;
+    }
+}
