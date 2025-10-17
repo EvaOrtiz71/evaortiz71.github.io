@@ -297,7 +297,11 @@ p {
         display: flex;
         flex-direction: column;
         border-bottom: 2px outset #540872;
-        text-align: left;
+        text-align: center;
+    }
+
+    .dropdown-container {
+        width: 100%;
     }
 
     #navbar-container a {
@@ -312,7 +316,7 @@ p {
 
     #navbar-container #logo {
         font-size: 30px;
-        margin-right: none;
+        margin-right: 0px;
         /* text-align: center; */
     }
 
@@ -346,7 +350,7 @@ p {
     .adopt-layout {
         min-width: 0px;
         width: 100%;
-        margin: 10px;
+        /* margin: 10px; */
         padding: 10px;
     }
 
